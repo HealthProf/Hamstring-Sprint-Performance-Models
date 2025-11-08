@@ -55,7 +55,7 @@ This script examines how much a hamstring imbalance affects sprint time while ac
 **Purpose**: Decision tree analysis with effect size calculations
 
 **What it does in plain language**:
-This script creates a flowchart of "if-then" rules to predict sprint times based on hamstring imbalances. It's easier to follow than regression equations and reveals which imbalances matter most. For example: "If force difference is greater than 3.1 N, then look at impulse difference; if that's below -453 Ns, expect slower sprint times."
+This script creates a flowchart of "if-then" rules to predict sprint times based on hamstring imbalances. It's easier to follow than regression equations and reveals which imbalances matter most. For example: "If force difference is less than 3.1 N, then look at torque difference; if that's below 24Nm, expect faster sprint times."
 
 **Key features**:
 - Imports and processes the same data as the mixed-effects script
@@ -96,7 +96,7 @@ Template showing the required format for sprint timing data export from SmartSpe
 
 1. **Force Difference**: >3.1 N between legs significantly predicts slower sprint times
 2. **Torque Difference**: >24 Nm (when force is balanced) still impairs sprint performance
-3. **Impulse Difference**: Only matters when force imbalance exists; values ≤-453 Ns predict slowest sprints
+3. **Impulse Difference**: Only matters when force AND torque imbalances exists
 
 ### Decision Priority for Coaches
 
@@ -112,7 +112,7 @@ The analysis reveals a clear prioritization for addressing hamstring imbalances:
 - Why: Even with balanced force, large torque differences slow sprint performance
 - Action: Add targeted drills for rotational strength (e.g., slow eccentric exercises)
 
-**Priority 3 - Monitor Impulse (Only if Force Remains Imbalanced)**
+**Priority 3 - Monitor Impulse (Only if Force OR Torque Remains Imbalanced)**
 - Relevant when: Force difference >3 N cannot be immediately corrected
 - Why: Impulse can partially compensate for force imbalances
 - Action: Plyometric/eccentric drills if loading patterns are asymmetric
@@ -255,20 +255,25 @@ This code is provided as-is for research and educational purposes. If you identi
 
 ---
 
+## Publications and Presentations
+
+
+
+---
+
 ## Contact
 
 **Researcher**: Tim Curry  
 **Institution**: Northern Arizona University, Department of Health Sciences  
-**Program**: NAU Sports Performance Lab
+**Program**: NAU Sims-Treharne Sports Performance Research Lab
 
-For questions about methodology or implementation, please [open an issue](link-to-issues) or contact the corresponding author.
+For questions about methodology or implementation, please [open an issue](link-to-issues) or contact the corresponding author at timothy.curry@nau.edu.
 
 ---
 
 ## Acknowledgments
 
-- Study conducted in collaboration with [Athletic team name - if appropriate to include]
-- Nordbord equipment provided by [Equipment provider if applicable]
+- Study conducted in collaboration with NAU Women's Soccer Team.
 - Analysis framework developed at NAU Sports Performance Lab
 
 **AI Use Acknowledgement**: The research report associated with this code was outlined using OpenAI ChatGPT-4 mini. All modeling, analysis, and code were created by Tim Curry, and all information was reviewed and edited for accuracy.
