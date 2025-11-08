@@ -35,7 +35,7 @@ In soccer, quick acceleration over 10 yards can be decisive for performance. If 
 
 ### R Scripts
 
-#### `Athlete_random_effect_model.R`
+#### `Athlete random effect models.R`
 **Purpose**: Mixed-effects regression analysis accounting for repeated measures
 
 **What it does in plain language**:
@@ -51,7 +51,7 @@ This script examines how much a hamstring imbalance affects sprint time while ac
 
 **Statistical approach**: Linear mixed-effects models with random intercepts and slopes for each athlete
 
-#### `Decision_tree_with_effect_size.R`
+#### `Decision tree models with effect size.R`
 **Purpose**: Decision tree analysis with effect size calculations
 
 **What it does in plain language**:
