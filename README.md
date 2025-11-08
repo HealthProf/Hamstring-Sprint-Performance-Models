@@ -35,7 +35,7 @@ In soccer, quick acceleration over 10 yards can be decisive for performance. If 
 
 ### R Scripts
 
-#### `Date_and_athlete_random_effect.R`
+#### `Athlete_random_effect_model.R`
 **Purpose**: Mixed-effects regression analysis accounting for repeated measures
 
 **What it does in plain language**:
