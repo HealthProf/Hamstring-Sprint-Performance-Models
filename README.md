@@ -245,13 +245,8 @@ If you use this code or methodology in your research, please cite:
 
 ## Contributing
 
-This code is provided as-is for research and educational purposes. If you identify issues or have suggestions for improvements, please open an issue in this repository.
+This code is provided as-is for research and educational purposes under the MIT license, please see license file for details. If you identify issues or have suggestions for improvements, please open an issue in this repository.
 
----
-
-## License
-
-[Specify your license here - e.g., MIT, GPL-3, CC-BY-4.0]
 
 ---
 
